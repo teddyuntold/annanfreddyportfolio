@@ -1,0 +1,101 @@
+
+header {
+    left: 0;
+    top: 0;
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 50px;
+    z-index: 1000; /* Ensures the header is above other content */
+}
+
+header h3{
+    margin: 0;
+}
+
+.no-bullets{
+    list-style-type: none;
+    padding-left: 0; /* Ensure no padding on the list */
+    margin: 0; /* Ensure no margin on the list */
+}
+
+.round-frame {
+    width: 250px; /* Adjust the size as needed */
+    height: 300px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image round */
+    overflow: hidden; /* Ensures the image does not overflow the container */
+    border: 5px solid #333; /* Optional: Adds a border around the image */
+    display: block;
+    margin: 20px auto; /* Centers the image horizontally */
+    position: relative;
+    margin-left: 0;
+    margin-bottom: 50px;
+}
+
+.profile {
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Vertically center the items */
+    margin: 0;
+}
+
+ul li img {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image round */
+    overflow: hidden; /* Ensures the image does not overflow the container */
+    border: 5px solid #333; /* Optional: Adds a border around the image */
+    display: block;
+    margin: 20px auto; /* Centers the image horizontally */
+    position: relative;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+ul li {
+    margin-top: 20px;
+    margin-left: 0;
+    display: flex; /* Aligns the image and text horizontally */
+    align-items: center; /* Vertically center the items */
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+iframe{
+    height: 750px;
+    margin-bottom: 50px;
+}
+
+footer h4{
+    margin: 0;
+}
+
+main {
+    margin-top: 100px;
+    margin: 50px;
+}
+
+label{
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+a {
+    color: white; /* Set the default color of links to white */
+    text-decoration: none; /* Remove underline from links */
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #262a10;
+}
